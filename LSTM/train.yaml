@@ -1,0 +1,13 @@
+lr: 0.0025
+gpus:
+- 0
+
+num_epochs: 100
+batch_size: 32
+img_size:
+- 48
+- 48
+feature_size: 561
+
+
+ckp_dir: "./models"
